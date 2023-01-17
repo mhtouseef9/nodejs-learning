@@ -214,6 +214,8 @@ async function fetchPosts() {
     const webPosts = await axios.get('https://jsonplaceholder.typicode.com/posts')
     return webPosts.data
 }
+
+// function using then instead of await but not assigning value to global variable
 // function fetchPosts() {
 //     var posts;
 //     axios.get('https://jsonplaceholder.typicode.com/posts')
