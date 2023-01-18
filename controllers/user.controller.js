@@ -169,7 +169,7 @@ exports.getPostIdsAsync = (req, res) => {
         });
 };
 
-// getPostById Async
+// getPostById Async request
 
 // exports.getPostByIdAsync = async (req, res) => {
 //   console.log("in getPostById req Async");
